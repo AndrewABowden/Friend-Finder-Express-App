@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://d2118lkw40i39g.cloudfront.net/wp-content/uploads/2015/07/friendship.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-color: darkgreen;
+    color: white;
+    opacity: .85;
+    margin-top: 20px;
+}
+
+#submit {
+    background: darkgreen;
+}
+
+#jumbo_h2 {
+    color: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.panel-title {
+    color: darkgreen;
+}
+a {
+    color: firebrick
+}
