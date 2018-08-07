@@ -6,19 +6,20 @@ body{
     background-attachment: fixed;
 }
 
-.jumbotron {
+.jumbotron {opacity: .85;
     background-color: darkgreen;
     color: white;
-    opacity: .85;
-    margin-top: 20px;
+    margin-top: 15px;
 }
-
+a {
+    color: firebrick
+}
 #submit {
     background: darkgreen;
 }
 
 #jumbo_h2 {
-    color: white;
+    color: whitesmoke;
 }
 
 .btn-primary {
@@ -29,7 +30,4 @@ body{
 
 .panel-title {
     color: darkgreen;
-}
-a {
-    color: firebrick
 }
