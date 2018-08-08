@@ -1,4 +1,6 @@
+// var express = require('express');
 var path = require('path');
+// var app = express();
 
 //routes 
 module.exports = function(app) {
@@ -11,8 +13,8 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, '/../public/survey.html'))
     });
 
-    app.use(function (req, res) {
-        res.sendFile(path.join(__dirname + '/../public/home.html'))
-    });
+    //  app.use(function (req, res) {
+    //      res.sendFile(path.join(__dirname + '/../public/home.html'))
+    //  });
 
 };

@@ -4,30 +4,64 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.jumbotron {opacity: .85;
-    background-color: darkgreen;
-    color: white;
-    margin-top: 15px;
-}
-a {
-    color: firebrick
-}
-#submit {
-    background: darkgreen;
-}
-
-#jumbo_h2 {
-    color: whitesmoke;
-}
+};
 
 .btn-primary {
     color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;
-}
+};
 
 .panel-title {
     color: darkgreen;
+};
+
+form {
+    background-color: white;
 }
+h3 {
+    margin-top: 15px;
+}
+ /* Modals */
+.modal {
+    display: absolute; /* Hidden by default */
+    z-index: 100; /* Sit on top */ /* Full width *//* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-body {
+    background-color: #fefefe; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+} */
+
+/* The Close Button */
+#closeModal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeModal:hover,
+.closeModal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* jjumbontron, general links */
+.jumbotron {
+    opacity: .85; background: darkgreen; color: white; margin-top: 15px;}
+a { 
+    color: firebrick
+}
+#submit {background: darkgreen };
+
+#jumbo_h2 {
+    color: whitesmoke;
+};

@@ -1,4 +1,4 @@
-let friends = [
+var friends = [
     {
         "name" : "Andrew",
     "photo" : "http://www.mens-hairstylists.com/wp-content/uploads/2015/10/stylish-haircuts-for-men.jpg",
@@ -33,15 +33,15 @@ let friends = [
     "scores" : [5,5,5,5,5,5,5,5,1,5]
 }, {
     "name" : "Bri",
-    "photo" : "http://theblacksheeponline.com/wp-content/uploads/2016/04/stock-photo-funny-man-with-watermelon-helmet-and-googles-looks-like-a-parasitic-caterpillar-157354478.jpg",
+    "photo" : "https://c8.alamy.com/comp/F8DG4T/businessman-with-thoughts-of-suicide-F8DG4T.jpg",
     "scores" : [5,5,5,5,5,5,1,5,2,5]
 }, {
     "name" : "Krissy",
-    "photo" : "http://1.bp.blogspot.com/-FMhfNM7lFG4/Ud8XSJsqgLI/AAAAAAAAAIs/uyMyWoJUEk0/s1600/women-medium-wavy-hairstyles.jpg",
+    "photo" : "https://c8.alamy.com/comp/F8DG4T/businessman-with-thoughts-of-suicide-F8DG4T.jpg",
     "scores" : [1,5,5,5,5,5,5,5,5,5]
 }, {
     "name" : "Brandon",
-    "photo" : "http://d236bkdxj385sg.cloudfront.net/wp-content/uploads/2012/02/brian-white.jpg",
+    "photo" : "https://c8.alamy.com/comp/F8DG4T/businessman-with-thoughts-of-suicide-F8DG4T.jpg",
     "scores" : [5,2,4,3,3,2,1,3,3,4]
 }, {
     "name" : "Jarrod",
@@ -53,7 +53,7 @@ let friends = [
     "scores" : [2,3,5,5,3,5,2,1,3,2]
 }, {
     "name" : "Katie",
-    "photo" : "http://harvardsol.com/wp-content/uploads/2016/07/impressive-new-haircuts-for-young-men-all-inspirational-article.jpg",
+    "photo" : "https://c8.alamy.com/comp/F8DG4T/businessman-with-thoughts-of-suicide-F8DG4T.jpg",
     "scores" : [2,3,5,5,3,5,2,1,3,2]
 }];
 
